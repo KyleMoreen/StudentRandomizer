@@ -1,0 +1,65 @@
+* {
+    text-align: center;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+header, footer {
+    background-color: red;
+    padding: 10px;
+}
+
+header {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: lightgrey;
+}
+
+button:active {
+    background-color: grey;;
+}
+
+.class-list {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto 20px auto;
+    max-width: 400px;
+}
+
+.class-list > button {
+    margin: auto;
+}
+
+.student-list, .random-student {
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+a, a:visited {
+    color: black;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+a:active {
+    color: white;
+}
