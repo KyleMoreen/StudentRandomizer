@@ -18,7 +18,7 @@ const studentsPicked = [];
 let val = 0;
 
 //fetch JSON with student lists
-fetch('students.json')
+fetch('demo.json')
 .then(response => response.json())
 .then(data => {
 
