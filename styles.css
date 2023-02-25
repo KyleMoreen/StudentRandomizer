@@ -29,6 +29,10 @@ button:active {
     background-color: grey;;
 }
 
+button:disabled {
+    background-color: #EEE;
+}
+
 .class-list {
     display: flex;
     justify-content: center;
@@ -58,8 +62,4 @@ a, a:visited {
 
 a:hover {
     font-weight: bold;
-}
-
-a:active {
-    color: white;
 }
